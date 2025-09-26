@@ -1,0 +1,14 @@
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() {
+
+   int x;
+    scanf("%d",&x);
+      printf("Years: %d\n",x/365);  
+    printf("Weeks: %d\n",(x%365)/7);
+    printf("Days: %d\n",(x%365)%7);
+    return 0;
+}
