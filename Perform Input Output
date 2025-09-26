@@ -1,0 +1,17 @@
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() {
+    char x;
+    int y;
+    float v;
+    double m;
+    scanf("%c",&x);
+    scanf("%d",&y);
+    scanf("%f",&v);
+    scanf("%lf",&m);
+    printf("%c %d %.2f %lf",x,y,v,m);
+    return 0;
+}
