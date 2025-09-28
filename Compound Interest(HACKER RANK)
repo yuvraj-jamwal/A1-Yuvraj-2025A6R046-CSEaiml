@@ -1,0 +1,13 @@
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() {       
+int p,t;
+    float r;
+scanf("%d%f%d",&p,&r,&t);
+    printf("%.2f",p*(pow(1+r/100,t))-p);
+    
+    return 0;
+}
